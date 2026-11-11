@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require __DIR__.'/../vendor/autoload.php';
+
+use JobAds\Cli;
+use JobAds\JobAdRepository;
+
+$repository = new JobAdRepository(dirname(__DIR__).'/data/job-ads.json');
+
+exit((new Cli($repository))->run($argv ?? []));
