@@ -1,0 +1,14 @@
+{
+    "name": "azrastack/job-ads-cli",
+    "description": "List, filter and summarise job ads from the command line",
+    "type": "project",
+    "require": {
+        "php": "8.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azrastack\\JobAdsCli\\": "src/"
+        }
+    }
+}

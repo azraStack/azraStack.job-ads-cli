@@ -1,0 +1,12 @@
+[
+    {"id": 1, "company": "Contoh Tech Sdn Bhd", "title": "Junior Laravel Developer", "seniority": "junior", "location": "Kuala Lumpur", "salary_min": 3500, "salary_max": 4500, "skills": ["laravel", "php", "mysql", "git"]},
+    {"id": 2, "company": "Rekaan Labs", "title": "Laravel Developer", "seniority": "mid", "location": "Remote", "salary_min": 5000, "salary_max": 7000, "skills": ["laravel", "php", "vue", "rest api"]},
+    {"id": 3, "company": "Fiksyen Logistics", "title": "Backend Developer (PHP)", "seniority": "mid", "location": "Shah Alam", "salary_min": 4500, "salary_max": 6500, "skills": ["php", "laravel", "redis", "docker"]},
+    {"id": 4, "company": "Sampel Retail Group", "title": "Full-stack Developer", "seniority": "mid", "location": "Kuala Lumpur", "salary_min": 5500, "salary_max": 8000, "skills": ["laravel", "react", "mysql", "aws"]},
+    {"id": 5, "company": "Andaian Health", "title": "Junior PHP Developer", "seniority": "junior", "location": "Penang", "salary_min": 3000, "salary_max": 4000, "skills": ["php", "mysql", "javascript"]},
+    {"id": 6, "company": "Rekaan Labs", "title": "Senior Laravel Engineer", "seniority": "senior", "location": "Remote", "salary_min": 9000, "salary_max": 12000, "skills": ["laravel", "php", "aws", "docker", "mysql"]},
+    {"id": 7, "company": "Demo Payments Sdn Bhd", "title": "Software Engineer, Payments", "seniority": "senior", "location": "Kuala Lumpur", "salary_min": 8000, "salary_max": 11000, "skills": ["php", "symfony", "postgresql", "kafka"]},
+    {"id": 8, "company": "Projek Ujian Studio", "title": "Junior Web Developer", "seniority": "junior", "location": "Johor Bahru", "salary_min": 2800, "salary_max": 3800, "skills": ["javascript", "react", "css"]},
+    {"id": 9, "company": "Contoh Tech Sdn Bhd", "title": "QA Automation Engineer", "seniority": "mid", "location": "Kuala Lumpur", "salary_min": 4500, "salary_max": 6000, "skills": ["php", "pest", "playwright", "ci"]},
+    {"id": 10, "company": "Fiksyen Logistics", "title": "Junior Laravel Developer", "seniority": "junior", "location": "Shah Alam", "salary_min": 3800, "salary_max": 5200, "skills": ["laravel", "php", "git", "pest"]}
+]
