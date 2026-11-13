@@ -1,0 +1,41 @@
+{
+    "name": "azrastack/job-ads-cli",
+    "description": "List, filter and summarise job ads from the command line",
+    "type": "project",
+    "require": {
+        "php": "^8.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JobAds\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^5.3",
+        "laravel/pint": "^1.32",
+        "phpstan/phpstan": "^2.3"
+    },
+    "scripts": {
+        "test": "pest",
+        "lint": "pint --test",
+        "format": "pint",
+        "analyse": "phpstan analyse --no-progress",
+        "check": [
+            "@lint",
+            "@analyse",
+            "@test"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
